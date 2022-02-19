@@ -4,112 +4,112 @@
     font-family: "Aileron Regular";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-regular.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-regular.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron Italic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-italic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-italic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron Thin";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/Aileron-Thin.otf') format('woff');
+    src: local(Aileron), url('../font/Aileron-Thin.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron UltraLight";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/Aileron-UltraLight.otf') format('woff');
+    src: local(Aileron), url('../font/Aileron-UltraLight.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron ThinItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-thinitalic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-thinitalic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron UltraLightItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-ultralightitalic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-ultralightitalic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron Light";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-light.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-light.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron LightItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-lightitalic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-lightitalic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron SemiBold";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/Aileron-SemiBold.otf') format('woff');
+    src: local(Aileron), url('../font/Aileron-SemiBold.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron SemiBoldItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/Aileron-SemiBoldItalic.otf') format('woff');
+    src: local(Aileron), url('../font/Aileron-SemiBoldItalic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron Bold";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-bold.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-bold.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron BoldItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-bolditalic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-bolditalic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron Black";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-black.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-black.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron Heavy";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-heavy.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-heavy.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron BlackItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-blackitalic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-blackitalic.otf') format('woff');
 }
 
 @font-face {
     font-family: "Aileron HeavyItalic";
     font-style: normal;
     font-weight: normal;
-    src: local(Aileron), url('fontes/aileron-heavyitalic.otf') format('woff');
+    src: local(Aileron), url('../font/aileron-heavyitalic.otf') format('woff');
 }
 
 * {
@@ -189,33 +189,151 @@ section>figure {
     float: left;
 }
 
-.retangulo-mais-sabores{
-    width: 100%;
-    height: 84px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-color: #98ca3f;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
 
-.mais-sabores{
-    font-family: "Aileron Bold";
-    font-size: 26px;
-    font-weight: 300;
+.politica{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: "Aileron Regular";
+    font-size: 16px;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.71;
     letter-spacing: normal;
+    color: #54565A;
+}
+
+#titulo-politica{
     text-align: center;
+    font-family: "Aileron Bold";
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
     color: #2C2E30;
 }
 
-.mais-sabores:hover{
-    border-bottom: 3px solid #ffffff;
+.politica>h2{
+    text-align: justify;
+    font-family: "Aileron Bold";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #2C2E30;
 }
+
+/*CSS FORMULARIO*/
+.formulario{
+    margin: 25px auto 25px auto;
+    width: 80%;
+    padding: 30px;
+    border:1px solid transparent;
+}
+
+.formulario h1{
+    width: 100%;
+    text-align: center;
+    font-family: "Aileron Bold";
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #2C2E30;
+}
+
+.formulario h2{
+    width: 100%;
+    text-align: left;
+    font-family: "Aileron SemiBold";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #2C2E30;
+}
+
+.formulario p{
+    width: 100%;
+    text-align: left;
+    font-family: "Aileron LightItalic";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #98ca3f;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    text-align: justify;
+    font-family: "Aileron SemiBold";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #2C2E30;
+    
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;   
+    border: none;
+    outline: 0;
+    cursor: pointer;    
+    margin: 0 auto;
+    background-color: #98ca3f;
+    border-radius: 5px;
+    width: 210px;
+    height: 57px;
+    color: #ffffff;    
+    font: normal normal 20px/57px "Aileron Bold", sans-serif;
+    text-align: center;
+}
+/*FIM DO CSS FORMULARIO*/
 
 footer {
     font-family: "Aileron Bold";
@@ -302,93 +420,6 @@ section#footer-esquerda>a {
     padding: 1px 5px;
     margin-right: 15px;
    
-}
-
-.imagem-pizza {  
-    width: 100%;  
-    border-radius: 3px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-#receitas {
-    display: grid;
-    width: 60%;
-    margin: 0 auto;
-    text-align: left;
-    grid-gap: 5px;
-
-}
-
-.titulo-receitas {
-    font-family: "Aileron Bold";
-    font-size: 34px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: left;
-    color: #2C2E30;
-}
-
-.paragrafo-receitas {
-    font-family: "Aileron Regular";
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: left;
-    color: #2C2E30;
-}
-
-.link-receitas {
-    font-family: "Aileron Bold";
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: left;
-    color: #2C2E30;
-    padding-bottom: 2px;
-}
-
-/*#receitas>figure {
-    height: auto;
-}*/
-
-.receita-1-1 {
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.receita-1-2 {
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.receita-2-1 {
-    grid-row: 2;
-    grid-column: 1;
-}
-
-.receita-2-2 {
-    grid-row: 2;
-    grid-column: 2;   
-}
-
-.receita-3-1 {
-    grid-row: 3;
-    grid-column: 1;
-}
-
-.receita-3-2 {
-    grid-row: 3;
-    grid-column: 2;
 }
 
 #header-direita {
